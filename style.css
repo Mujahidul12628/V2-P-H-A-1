@@ -1,0 +1,473 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top_container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+.initial_text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 20px;
+    padding-right: 10vw;
+    text-align: end;
+}
+
+.initial_text p {
+    box-sizing: border-box;
+    font-style: normal;
+    text-align: end;
+    padding-left: 60%;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.tittle {
+    font-weight: 70px;
+    font-weight: bold;
+
+}
+
+.donate_button {
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(243, 16, 91);
+    background-color: rgb(243, 16, 91);
+
+}
+
+.donation {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(6, 6, 6);
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.donation p {
+    margin: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-style: normal;
+    color: rgb(49, 51, 56);
+}
+
+.failure {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.failure_txt pre span {
+    color: rgb(17, 193, 17);
+}
+
+.failure_img {
+    width: 50%;
+}
+
+.data_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.donate_col {
+    color: rgb(243, 16, 91);
+
+}
+
+.box {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+
+    margin: 40px;
+    padding: 10px;
+    background-color: rgb(235, 240, 245);
+}
+
+
+.donate {
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    border: 3px solid rgb(243, 16, 91);
+    background-color: rgb(243, 16, 91);
+}
+
+#box_id3 {
+    height: 120px;
+    width: 120px;
+    border: 2px solid rgb(243, 16, 91);
+    background-color: rgb(243, 176, 198);
+    ;
+}
+
+#myInput {
+    width: 30%;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 30px;
+}
+
+.data_plan h1 {
+    margin: 20px;
+    margin-top: 70px;
+    font-weight: 50px;
+    font-weight: bold;
+
+}
+
+.data_plan p {
+    margin: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-style: normal;
+    color: rgb(49, 51, 56);
+}
+
+.data_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box_1 {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    height: 290px;
+    width: 290px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(235, 240, 245);
+}
+
+.instruction {
+    font-size: 12px;
+    width: 30vw;
+    font-weight: 200;
+    color: black;
+    float: left;
+
+}
+
+.box_1 p {
+    font-size: 12px;
+    width: 30vw;
+    font-weight: 200;
+
+}
+
+.contact_box2 {
+    height: 60vh;
+    width: 60vw;
+
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+    background-color: rgb(245, 238, 240);
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 40px;
+    border: 2px solid rgb(243, 16, 91);
+
+
+}
+
+.contact_box h1 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+#send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(243, 36, 119);
+    color: white;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 40px;
+    border: 2px solid rgb(243, 36, 119);
+
+}
+
+
+#update_box {
+
+    height: 200px;
+    width: 60%;
+    background-color: rgb(240, 230, 173);
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#update_box4 {
+    margin-top: 12%;
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 30%;
+    border-radius: 7px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.subscribe {
+    margin-top: 12%;
+    color: white;
+    background-color: rgb(243, 16, 91);
+    height: 35px;
+    width: 10%;
+    border-radius: 7px;
+    border: 2px solid rgb(243, 16, 91);
+}
+
+span {
+    color: rgb(243, 16, 91);
+}
+
+.footer {
+    margin-top: 100px;
+    padding: 20px;
+    height: 20%;
+    width: 100%;
+    background-color: black;
+
+}
+
+#humble {
+    margin-top: 30px;
+    color: rgb(244, 185, 21);
+}
+
+.footer p {
+    color: white;
+}
+
+
+
+
+
+
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.blog1_text {
+    margin-top: 50px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.blog1_text h1 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.blog1_text p {
+    color: dimgray;
+    width: 30vw;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+.blog1_text img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#contribute {
+    margin-top: 20px;
+    float: left;
+
+}
+
+.contribute_button {
+    text-decoration: none;
+    background-color: rgb(243, 16, 91);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.blog2_text {
+    margin-top: 50px;
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+    text-align: start;
+}
+
+.green-text span {
+    color: rgb(13, 213, 13);
+}
+
+.blog2_text h1 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.blog2_text p {
+    color: dimgray;
+    width: 30vw;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+
+.blog2_text img {
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+    height: 00px;
+}
+
+#contribute1 {
+    margin-top: 20px;
+    float: left;
+
+}
+
+.contribute1_button {
+    text-decoration: none;
+    background-color: rgb(243, 16, 91);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.always {
+    height: 30vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(55, 155, 213, 0), rgb(75, 215, 249));
+    text-align: start;
+    color: black;
+    font-size: x-large;
+
+}
+
+.call_now {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 115);
+    margin-left: 40%;
+
+}
+
+.call_now {
+    background-color: rgb(2, 179, 223);
+    border-radius: 5px;
+
+}
+
+.footer_world {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    color: white;
+    background-color: black;
+    width: 100vw;
+
+}
+
+.footer_world p {
+    color: white;
+    width: 30vw;
+}
+
+.subscribe {
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(243, 16, 91);
+    background-color: rgb(243, 16, 91);
+}
+
+.footer_world h3 {
+    margin-top: 40px;
+    color: rgb(239, 203, 43);
+}
